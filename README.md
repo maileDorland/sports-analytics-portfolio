@@ -1,5 +1,5 @@
 # Sports Analytics Portfolio - Maile Dorland
-Repository contains multiple sports analytics and data science projects focused on applying statistical analysis, modeling and visualization. The projects contain data cleaning, feature engineering, model interpretation, and clear communication of insights. 
+Repository contains multiple sports analytics and data science projects focused on applying statistical analysis, modeling, and visualization. The projects contain data cleaning, feature engineering, model interpretation, and clear communication of insights. 
 ## Projects Included
 ### NFL Ply-by-Play Analysis 
 Explores NFL game logs from the 2024 season outcomes. Uses metricsand contextual factors to discover player / team advantages from that season.
