@@ -7,5 +7,5 @@ Explores NFL game logs from the 2024 season outcomes. Uses metricsand contextual
 Predicts NFL game outcomes using metrics, injury report, depth charts, power rankings, and other game contexts to help determine win / loss of week matchups. 
 ### Team Similarity & Clustering
 Uses PCA and clustering techniques to identify team profiles and similarities across the league. 
-### Tools & Skills
+## Tools & Skills
 Python, pandas, NumPy, scikit-learn, Excel, Matplotlib
