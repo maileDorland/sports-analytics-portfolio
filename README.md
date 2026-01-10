@@ -3,7 +3,6 @@ Repository contains multiple sports analytics and data science projects focused 
 ## Projects Included
 ### Game Outcome Prediction Model
 Predicts NFL game outcomes using metrics, injury report, depth charts, power rankings, and other game contexts to help determine win / loss of week matchups. 
-### Team Similarity & Clustering
-Uses PCA and clustering techniques to identify team profiles and similarities across the league. 
+ 
 ## Tools & Skills
 Python, pandas, NumPy, scikit-learn, Excel, Matplotlib
