@@ -18,7 +18,6 @@ def get_prediction(user_input):
     score_diff_map = {"behind": -7, "neutral": 0, "ahead": 7}
 
     processed_input = {
-        "week": 17,  # Defaulting to late season
         "down": user_input["downs"],
         "ydstogo": user_input["yards_to_go"],
         "yardline_100": user_input["field_position"],
