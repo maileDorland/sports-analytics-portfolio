@@ -1,0 +1,65 @@
+{
+  "data_path": "data/processed/pbp_2024_success_ml_data.parquet",
+  "features": [
+    "down",
+    "ydstogo",
+    "yardline_100",
+    "score_differential",
+    "game_seconds_remaining",
+    "defenders_in_box",
+    "number_of_pass_rushers",
+    "posteam",
+    "defteam",
+    "offense_formation_clean",
+    "surface_clean",
+    "roof_clean",
+    "weather_ui",
+    "score_state"
+  ],
+  "num": [
+    "down",
+    "ydstogo",
+    "yardline_100",
+    "score_differential",
+    "game_seconds_remaining",
+    "defenders_in_box",
+    "number_of_pass_rushers"
+  ],
+  "cat": [
+    "posteam",
+    "defteam",
+    "offense_formation_clean",
+    "surface_clean",
+    "roof_clean",
+    "weather_ui",
+    "score_state"
+  ],
+  "models": {
+    "PASS_FAMILY": {
+      "family": "PASS_FAMILY",
+      "n_train": 15411,
+      "n_test": 4534,
+      "prod_hgb": {
+        "path": "artifacts\\pass_family_prod_hgb.joblib",
+        "metrics": {
+          "auc": 0.5846536889645262,
+          "brier": 0.24319701553931033,
+          "test_rate": 0.4591971768857521
+        }
+      }
+    },
+    "RUSH": {
+      "family": "RUSH",
+      "n_train": 11975,
+      "n_test": 3453,
+      "prod_hgb": {
+        "path": "artifacts\\rush_prod_hgb.joblib",
+        "metrics": {
+          "auc": 0.6548722386934243,
+          "brier": 0.22539690015769373,
+          "test_rate": 0.4271647842455836
+        }
+      }
+    }
+  }
+}
