@@ -1,4 +1,4 @@
-# NFL Game Outcome Prediction
+# NFL Pre-Snap Play Success
 ## Overview
 This project utilizes machine learning to predict the probability of a "successful" play outcome based on pre-snap game context. By analyzing the relationship between offensive formations, defensive alignment, and game-state variables, the model provides insights into which scenarios favor the offense versus the defense. 
 
