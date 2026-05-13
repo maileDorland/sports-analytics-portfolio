@@ -26,5 +26,5 @@ features for predictive modeling.
 - Injury-related features had the greatest impact for QB and WR positons
 
 ## File
-- 'weekly_matchup_prediction.py'
+- 'weekly_matchup_predictions.py'
 
