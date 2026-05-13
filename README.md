@@ -4,7 +4,7 @@ Repository contains multiple sports analytics and data science projects focused 
 ### Game Outcome Prediction Model
 Predicts NFL game outcomes using metrics, injury report, depth charts, power rankings, and other game contexts to help determine win / loss of week matchups.
 ### Player Success Metrics
-Using specific game context, returns a percentage of "success" that a play will warrant a positive or negative contribution to the player's situational efficiency.
+Using specific game context, returns a percentage of "success" that a play will warrant a positive or negative contribution to a run or pass play's efficiency.
  
 ## Tools & Skills
 Python, Pandas, NumPy, Scikit-learn, Excel, Matplotlib, nfl-data-py
